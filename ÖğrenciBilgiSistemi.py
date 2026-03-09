@@ -2,7 +2,7 @@ def ogrenci_ekle():
     with open("C:\\Users\\EMİRHAN\\OneDrive\\Desktop\\PYTHON\\projeler\\OgrenciBilgileri.txt","a",encoding = "utf-8") as f:
         ogrenci = {}
         isim = input("Ogrenci ismini giriniz: ")
-        ogrenci["ad"] = isim
+        ogrenci["soyad"] = isim
         soyisim = input("Ogrenci soyismini giriniz: ")
         ogrenci["ad"] = soyisim
         notlar = input("Ogrenci notunu giriniz: ")
